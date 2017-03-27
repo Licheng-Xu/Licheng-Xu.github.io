@@ -5,8 +5,8 @@
 ## Tags Cloud Page: `hexo new page tags`
 menu:
   博客首页: /Home
-  标签页: /tags
-  分类阅读: /categories
+  分类标签: /tags
+  所有文章: /archives
 # 静心阅读: /tags
 # 光影之路: /instagram
 # 随笔: /tags/随笔
@@ -28,7 +28,7 @@ subnav:
   zhihu: "https://www.zhihu.com/people/licheng_xu"
   weibo: "http://weibo.com/u/5857062523"
   google: "https://plus.google.com/114264622150988407070"
-  twitter: "https://twitter.com/lkLSmhnwos09uIG"
+  # twitter: "https://twitter.com/lkLSmhnwos09uIG"
   # linkedin: "#"
   # facebook: "#"
   # rss: /atom.xml
@@ -46,14 +46,14 @@ subnav:
 # 选一个作为网站评论系统，其他保持禁用。
 
 disqus: 
-  #on: true
-  shortname: 
+  on: true
+  shortname: licheng-xu 
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
-  on: true
+  #on: true
   domain: 
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
@@ -102,7 +102,7 @@ toc_nowrap: false
 
 # 自定义"阅读全文"链接按钮的显示文字
 # Customize the text on excerpt link
-excerpt_link: more>> #修改more>>的文字
+excerpt_link: 全文>> #修改全文>>的文字
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
@@ -122,10 +122,10 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
-  name: http://luuman.github.io/
+  世平阜康: http://luuman.github.io/
 
 #是否开启“关于我”。
-aboutme: 纯海迷、爱运动、爱交友、爱旅行、喜欢接触新鲜事物、迎接新的挑战，更爱游离于错综复杂的编码与逻辑中
+aboutme: 我们都是阴沟里的虫子,但总还是得有人仰望星空。 ——《三体》
 #aboutme: false
 
 # 是否在新窗口打开链接
@@ -144,7 +144,7 @@ fancybox: true
 
 # Display Math(LaTeX, MathML...) | 数学公式支持
 ## https://www.mathjax.org/
-mathjax: false
+mathjax: true
 
 # Socail Share | 是否开启分享
 # share: true
@@ -153,7 +153,7 @@ baidushare: true
 
 # 百度、谷歌站长验证。填写 HTML 标签 content
 # Site Verification for Google and Baidu. HTML label content.
-google_site: # pFW527fHrjfI0si2w4NQ0w3cTw12AvvuohAu1PUfqKA
+google_site: 4GZOtEeq10ZpF6E9yLbnYjCx5-LnF8hnZ7gHT6FfPjs
 baidu_site: #c167b9feb4f0b208b712c79629c188e4
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
@@ -171,4 +171,4 @@ visit_counter:
 TipTitle: true
 
 # Loading
-# Loading: true
+Loading: true
